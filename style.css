@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.material-icons {
+  color: #333;
+}
+a {
+  color: black;
+}
+header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.header_element {
+  display: flex;
+}
+#logo {
+  width: 150px;
+  height: 100%;
+  margin-left: 20px;
+}
+header .material-icons {
+  cursor: pointer;
+  padding: 0 10px;
+}
+#header_center {
+  display: flex;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+form {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#search {
+  height: 100%;
+  width: 500px;
+  margin: 0;
+  color: #333;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+}
+form button {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+aside {
+  width: 200px;
+  height: calc(100vh-70px);
+  display: flex;
+  flex-direction: column;
+}
+.aside_element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+.aside_element:hover {
+  background: #d1d1d1;
+}
+.aside_element a {
+  text-decoration: none;
+}
+.aside_element a:active {
+  background-color: #a3a3a3;
+}
+.aside_element span {
+  margin-left: 15px;
+}
+hr {
+  height: 1px;
+  background-color: #41463d;
+  border: none;
+}
+#row2 {
+  display: flex;
+  flex-direction: row;
+}
+.video-container {
+  width: calc(100% - 200px);
+  height: calc(100vh-70px);
+  background-color: rgb(234, 238, 238);
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.video {
+  width: 300px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.video:hover {
+  background: #d1d1d1;
+}
+.thumbnail {
+  width: 100%;
+  height: 200px;
+}
+.thumbnail img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.channel_logo img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.details {
+  display: flex;
+  margin-left: 5px;
+  padding-top: 5px;
+}
+.details p {
+  font-weight: 600;
+  font-size: 20px;
+}
+.details a {
+  text-decoration: none;
+}
